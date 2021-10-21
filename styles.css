@@ -17,7 +17,7 @@ body {
 
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
   border-bottom-left-radius: 53px;
 }
 
@@ -138,6 +138,7 @@ h1:hover {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+
   /* or 130% */
 
   display: flex;
@@ -197,6 +198,7 @@ h1:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+
   /* identical to box height, or 150% */
 
   /* Primary/B300 */
@@ -370,7 +372,7 @@ h1:hover {
 
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
 
   /* Neutrals/N40 */
 
