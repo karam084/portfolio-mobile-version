@@ -1,24 +1,19 @@
 body {
   position: relative;
-  width: 375px;
-  height: 5410px;
+  width: 100%;
+  height: 718px;
 
   /* Neutrals/N10 */
 
-  background: #f7f7f9;
+  background: white;
+  border-bottom-left-radius: 53px;
 }
 
 .header-con {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 375px;
-  height: 718px;
-
-  /* Neutrals/N0 */
-
-  background: #fff;
-  border-bottom-left-radius: 53px;
+  width: auto;
 }
 
 .logo {
@@ -50,7 +45,7 @@ body {
   flex-grow: 0;
 }
 
-h1:hover {
+:hover {
   color: blueviolet;
 }
 
@@ -70,7 +65,6 @@ h1:hover {
 
   /* Primary/B400 */
 
-  background: #6070ff;
   list-style: none;
 }
 
@@ -87,7 +81,7 @@ h1:hover {
 
   /* Base / 300 - Tertiary */
 
-  border: 2px solid #acb7c3;
+  border: 2px solid #0b7bf3f6;
 }
 
 .vector2 {
@@ -99,7 +93,7 @@ h1:hover {
 
   /* Base / 300 - Tertiary */
 
-  border: 2px solid #acb7c3;
+  border: 2px solid #0376f1;
 }
 
 .vector3 {
@@ -111,7 +105,7 @@ h1:hover {
 
   /* Base / 300 - Tertiary */
 
-  border: 2px solid #acb7c3;
+  border: 2px solid #067bf8;
 }
 
 .content_name {
@@ -126,7 +120,7 @@ h1:hover {
   /* Primary Text */
 
   position: static;
-  width: 280px;
+  width: 320px;
   height: 150px;
   padding-left: 24px;
   padding-top: 114px;
@@ -261,14 +255,19 @@ h1:hover {
 }
 
 .shape1 {
+  background-image: url("shapes-icons/Rectangle5.png");
+  background-repeat: no-repeat;
   position: absolute;
-  width: 95.58px;
-  height: 22.02px;
-  left: 294px;
-  top: 117.79px;
+  width: 120.58px;
+  height: 80.02px;
+  left: 320px;
+  top: 110.79px;
+  transform: rotate(-50deg);
 }
 
 .shape2 {
+  background-image: url("shapes-icons/Ellipse3.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 105px;
   height: 105px;
@@ -277,6 +276,8 @@ h1:hover {
 }
 
 .shape3 {
+  background-image: url("shapes-icons/Ellipse8.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 15px;
   height: 15px;
@@ -285,22 +286,28 @@ h1:hover {
 }
 
 .shape4 {
+  background-image: url("shapes-icons/Rectangle7.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 26.46px;
-  height: 4.73px;
-  left: 127.18px;
-  top: 151.59px;
+  height: 20.73px;
+  left: 130.18px;
+  top: 152.59px;
 }
 
 .shape5 {
+  background-image: url("shapes-icons/Ellipse5.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 11px;
-  height: 10px;
+  height: 50px;
   left: 132.98px;
   top: 155.81px;
 }
 
 .shape6 {
+  background-image: url("shapes-icons/Rectangle6.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 51.99px;
   height: 9.3px;
@@ -311,38 +318,48 @@ h1:hover {
 }
 
 .shape7 {
+  background-image: url("shapes-icons/Ellipse11.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 38.5px;
-  height: 19.25px;
-  left: 16.04px;
-  top: 161.47px;
+  height: 40.25px;
+  left: 10.04px;
+  top: 140.47px;
 }
 
 .shape8 {
+  background-image: url("shapes-icons/Ellipse12.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 24.14px;
-  height: 12.07px;
+  height: 15.07px;
   left: 341.76px;
   top: 546.69px;
 }
 
 .shape9 {
+  background-image: url("shapes-icons/Ellipse13.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 30.1px;
-  height: 30.1px;
+  height: 40.1px;
   left: 332.18px;
-  top: 560.44px;
+  top: 550.44px;
 }
 
 .shape10 {
+  background-image: url("shapes-icons/Rectangle5.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 68.06px;
-  height: 12.18px;
+  height: 40.18px;
   left: 191.82px;
   top: 653px;
 }
 
 .shape11 {
+  background-image: url("shapes-icons/Ellipse4.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -351,6 +368,8 @@ h1:hover {
 }
 
 .shape12 {
+  background-image: url("shapes-icons/Ellipse15.svg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 15px;
   height: 15px;
