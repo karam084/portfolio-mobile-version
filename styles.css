@@ -255,14 +255,14 @@ body {
 }
 
 .shape1 {
-  background-image: url("shapes-icons/Rectangle5.png");
+  background-image: url("shapes-icons/Rectangle4.svg");
   background-repeat: no-repeat;
   position: absolute;
-  width: 120.58px;
-  height: 80.02px;
-  left: 320px;
-  top: 110.79px;
-  transform: rotate(-50deg);
+  width: 90.58px;
+  height: 90.02px;
+  left: 300px;
+  top: 115.79px;
+  transform: rotate(-5deg);
 }
 
 .shape2 {
