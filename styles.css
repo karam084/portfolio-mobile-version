@@ -389,7 +389,8 @@ body {
 
   /* Neutrals/N0 */
 
-  background: #ffffff;
+  background: #fff;
+
   /* Neutrals/N40 */
 
   border: 1px solid #dfe1e6;
@@ -437,11 +438,6 @@ body {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 137% */
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
 
   /* Inside Auto Layout */
@@ -478,7 +474,6 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* identical to box height, or 123% */
 
   /* Neutrals/N600 */
 
@@ -505,7 +500,6 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* identical to box height, or 123% */
 
   /* Neutrals/N100 */
 
@@ -531,7 +525,6 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* identical to box height, or 123% */
 
   /* Neutrals/N100 */
 
@@ -556,7 +549,6 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  /* or 160% */
 
   /* Neutrals/N600 */
 
