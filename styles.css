@@ -753,17 +753,6 @@ body {
   padding-top: 10px;
 }
 
-.work_name2 {
-  display: flex;
-  flex-direction: row;
-  width: 320px;
-  height: 40px;
-  list-style-type: circle;
-  gap: 30px;
-  margin-top: 10px;
-  margin-left: -28px;
-}
-
 .button_lang1 {
   display: flex;
   flex-direction: row;
