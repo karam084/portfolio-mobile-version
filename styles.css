@@ -258,10 +258,10 @@ body {
   background-image: url("shapes-icons/Rectangle4.svg");
   background-repeat: no-repeat;
   position: absolute;
-  width: 90.58px;
-  height: 90.02px;
-  left: 300px;
-  top: 115.79px;
+  width: 80.58px;
+  height: 70.02px;
+  left: 250px;
+  top: 125.79px;
   transform: rotate(-5deg);
 }
 
@@ -269,9 +269,9 @@ body {
   background-image: url("shapes-icons/Ellipse3.svg");
   background-repeat: no-repeat;
   position: absolute;
-  width: 105px;
+  width: 50px;
   height: 105px;
-  left: 323px;
+  left: 273px;
   top: 152.24px;
 }
 
