@@ -803,3 +803,344 @@ body {
   flex-grow: 0;
   margin: 12px 1px;
 }
+
+.work_img4 {
+  background-image: url("src-image/Snapshoot\ -portfolio3.png");
+  display: flex;
+  flex-direction: row;
+  width: 295px;
+  height: 219px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 1px;
+}
+
+.about {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  left: 1em;
+  top: 3294px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.media_div2 {
+  display: flex;
+  padding-top: 3em;
+}
+
+.media_u {
+  display: flex;
+  margin-left: 1px;
+  list-style: none;
+  margin-top: -12px;
+  margin-left: -10px;
+  gap: 10px;
+}
+
+.twitter2 {
+  display: flex;
+  left: 6.4%;
+  right: 100.27%;
+  top: 90.81%;
+  bottom: 18.88%;
+}
+
+/* Vector */
+
+.linked2 {
+  display: flex;
+  margin: 0.5px;
+}
+
+/* Vector */
+
+.medium2 {
+  display: flex;
+}
+
+/* Vector */
+
+.github2 {
+  display: flex;
+}
+
+/* Vector */
+
+.angellist2 {
+  display: flex;
+}
+
+.flex-botu {
+  background-color: white;
+  position: static;
+  width: 160px;
+  height: 40px;
+  left: 12px;
+  top: 10px;
+  font-size: 20px;
+
+  /* Primary/B400 */
+
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 1;
+  margin: 12px 20px;
+  color: #396df2;
+  list-style: none;
+}
+
+.more_det1 {
+  position: static;
+  width: 130px;
+  height: 24px;
+  padding-left: 23px;
+
+  /* Body / 2 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 1px 8px;
+  margin-top: -50px;
+}
+
+.flex-botu:hover {
+  color: #7f8cff;
+}
+
+.border-lang {
+  height: 2em;
+  right: 78px;
+  margin-left: -17px;
+
+  /* Body / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+  list-style: none;
+}
+
+.vector-1 {
+  /* Vector */
+  position: absolute;
+  margin-left: 7em;
+  margin-top: 0.05px;
+}
+
+.arrow-down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.lang-img {
+  /* Frame 9 */
+
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 12px;
+
+  /* Neutrals/N10 */
+
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 2px;
+  margin-left: -10px;
+  list-style: none;
+}
+
+.js-icon {
+  display: flex;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 12px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 1px;
+}
+
+.html-icon {
+  /* Frame 10 */
+
+  display: flex;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 90.72px;
+
+  /* Neutrals/N10 */
+
+  background-color: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 1px;
+}
+
+.css-icon {
+  /* Frame 11 */
+
+  position: static;
+  display: flex;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 169.43px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 1;
+  margin: 12px 1px;
+}
+
+.fr-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 1px;
+  list-style: none;
+}
+
+.border-frem {
+  /* Frameworks */
+
+  display: flex;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  margin-top: 220px;
+
+  /* Body / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  align-items: center;
+  color: #000;
+}
+
+.border-skill {
+  /* Skills */
+
+  display: flex;
+  width: 250px;
+  height: 50px;
+  left: 12px;
+  right: 78px;
+
+  /* Body / 1 - Bolder */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  align-items: center;
+  color: #000;
+  border: 1px #dfe1e6;
+  border-style: solid none;
+}
+
+.vector-2 {
+  position: absolute;
+  margin-left: 12em;
+  margin-top: 1em;
+}
+
+.vector-3 {
+  width: 15px;
+  height: 15px;
+  background: url(Vector3.png);
+  position: absolute;
+  margin-left: 12em;
+  margin-top: 0.5px;
+}
+
+.arrow-right {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
