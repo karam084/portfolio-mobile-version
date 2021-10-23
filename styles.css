@@ -859,10 +859,11 @@ body {
 
 .twitter2 {
   display: flex;
-  left: 6.4%;
-  right: 100.27%;
-  top: 90.81%;
-  bottom: 18.88%;
+  height: 21px;
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
 }
 
 /* Vector */
