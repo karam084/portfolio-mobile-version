@@ -9,18 +9,31 @@ body {
   border-bottom-left-radius: 53px;
 }
 
+.cont {
+  position: static;
+  width: 375px;
+  height: 720px;
+  left: 0.05px;
+  top: 0.05px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+  border-right: none;
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+}
+
 .header-con {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: auto;
+  padding-top: 58px;
 }
 
 .logo {
   position: static;
-  width: 76px;
-  height: 22px;
-  padding-top: 58px;
   padding-left: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -43,6 +56,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-decoration: none;
 }
 
 :hover {
@@ -114,6 +128,8 @@ body {
   flex-wrap: wrap;
   top: 114px;
   left: 24px;
+  box-sizing: border-box;
+  border-bottom-right-radius: 16px;
 }
 
 .my_name {
@@ -403,7 +419,7 @@ body {
   order: 0;
   flex-grow: 0;
   margin: 88px 24px;
-  margin-top: 231px;
+  margin-top: 90px;
 }
 
 .work_img {
@@ -454,12 +470,10 @@ body {
 .work_name2 {
   display: flex;
   flex-direction: row;
-  width: 320px;
   height: 40px;
   list-style-type: circle;
-  gap: 30px;
-  margin-top: 10px;
-  margin-left: -28px;
+  gap: 20px;
+  padding-left: 10px;
 }
 
 .canopy {
@@ -579,7 +593,6 @@ body {
   text-align: center;
   padding: 4px 12px;
   position: static;
-  width: 30px;
   height: 20px;
 
   /* Primary/B50 */
@@ -607,7 +620,6 @@ body {
   align-items: center;
   padding: 4px 12px;
   position: static;
-  width: 25px;
   height: 20px;
 
   /* Primary/B50 */
@@ -636,7 +648,6 @@ body {
   align-items: center;
   padding: 4px 12px;
   position: static;
-  width: 75px;
   height: 20px;
   left: 114px;
 
@@ -665,7 +676,6 @@ body {
   align-items: center;
   padding: 12px;
   position: static;
-  width: 110px;
   height: 40px;
   top: 1300px;
   left: 25px;
@@ -678,7 +688,7 @@ body {
   background: white;
   color: #7f8cff;
   margin-top: 20px;
-  margin-left: -18px;
+  margin-right: 170px;
 }
 
 .works_card2 {
@@ -1016,6 +1026,9 @@ body {
   order: 1;
   flex-grow: 1;
   margin: 12px 1px;
+  text-decoration: none;
+  align-items: center;
+  gap: 15px;
 }
 
 .html-icon {
@@ -1039,6 +1052,9 @@ body {
   order: 1;
   flex-grow: 1;
   margin: 12px 1px;
+  text-decoration: none;
+  align-items: center;
+  gap: 15px;
 }
 
 .css-icon {
@@ -1062,6 +1078,9 @@ body {
   order: 2;
   flex-grow: 1;
   margin: 12px 1px;
+  text-decoration: none;
+  align-items: center;
+  gap: 15px;
 }
 
 .fr-work {
@@ -1142,4 +1161,40 @@ body {
   display: inline-block;
   padding: 3px;
   transform: rotate(-45deg);
+}
+
+.article-class {
+  display: grid;
+  grid-auto-columns: auto;
+  align-content: flex-start;
+}
+.about-me {
+  position: static;
+  width: 327px;
+  height: 101px;
+  left: 0.05px;
+  top: 0.05px;
+
+  /* Header / 2 */
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 55px 22px;
 }
