@@ -1168,6 +1168,7 @@ body {
   grid-auto-columns: auto;
   align-content: flex-start;
 }
+
 .about-me {
   position: static;
   width: 327px;
@@ -1182,6 +1183,7 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+
   /* or 130% */
 
   display: flex;
