@@ -572,12 +572,11 @@ body {
   gap: 5px;
   list-style: none;
   margin-top: 1px;
-  float: right;
 }
 
 .htm {
-  /* display: flex;
-  flex-direction: row;*/
+  display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   padding: 4px 12px;
@@ -596,8 +595,7 @@ body {
   flex-grow: 0;
   color: #6070ff;
   margin-top: -35px;
-  margin-left: 1px;
-  float: right;
+  margin-left: -39px;
 }
 
 .htm:hover {
@@ -764,7 +762,6 @@ button:focus {
   gap: 5px;
   list-style: none;
   margin-top: 13px;
-  float: right;
 }
 
 .work_name3 {
@@ -1194,4 +1191,72 @@ button:focus {
   order: 0;
   flex-grow: 0;
   margin: 55px 22px;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-top: 1300px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
 }
