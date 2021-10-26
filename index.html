@@ -322,24 +322,46 @@
         </ul>
       </div>
     </section>
-    <form action="/my-handling-form-page" method="post">
-      <ul>
-        <li>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name" />
-        </li>
-        <li>
-          <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="user_email" />
-        </li>
-        <li>
-          <label for="msg">Message:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="button">
-          <button type="submit">Send your message</button>
-        </li>
-      </ul>
-    </form>
+    <section class="contact_form">
+      <form action="https://formspree.io/f/mjvjdzwp" method="post">
+        <h3 class="my-contact">Contact me</h3>
+        <article class="contact_info">
+          If you have an application you<br />
+          are interested in developing, a <br />feature that you need built or
+          a<br />
+          project that needs coding. I’d<br />
+          love to help with it
+        </article>
+        <ul>
+          <li>
+            <input
+              type="text"
+              id="name"
+              name="user_name"
+              placeholder="Yeremias"
+              max="30"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="email"
+              id="mail"
+              name="user_email"
+              placeholder="natajayanj14@gmail.com"
+              required
+            />
+          </li>
+          <li>
+            <textarea name="message" id="message-form" maxlength="500">
+Write your message here</textarea
+            >
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+        </ul>
+      </form>
+    </section>
   </body>
 </html>
