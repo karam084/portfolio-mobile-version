@@ -1201,49 +1201,19 @@ button:focus {
 .contact_form {
   display: flex;
   flex-flow: column;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  position: absolute;
-  width: 327px;
-  height: 779px;
-  left: 1em;
-  top: 275em;
-
-  /* Primary/B400 */
-
-  background: #6070ff;
-  border-top-left-radius: 90px;
 }
 
 form {
-  display: flex;
+  position: absolute;
   width: 375px;
   height: 779px;
   left: 0.05px;
-  margin-top: 1100px;
+  top: 4400px;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-top-left-radius: 100px;
 
   /* Primary/B400 */
 
   background: #6070ff;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-
-  vertical-align: top;
-  height: 5em;
-}
-
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-
-  border-color: #000;
-}
-
-button {
-  /* Align buttons with the text fields */
-
-  padding-left: 90px;
-  margin-left: 0.5em;
 }
