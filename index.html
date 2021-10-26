@@ -322,6 +322,7 @@
         </ul>
       </div>
     </section>
+    <!--
     <form action="/my-handling-form-page" method="post">
       <ul>
         <li>
@@ -341,5 +342,33 @@
         </li>
       </ul>
     </form>
+    -->
+    <section class="contact-form">
+      <h3>
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h3>
+      <form action="submit">
+        <input
+          type="text"
+          name="namefield"
+          id="namefield"
+          placeholder="Full name"
+          maxlength="30"
+          required
+        />
+        <input
+          type="email"
+          name="emailfield"
+          id="emailfield"
+          placeholder="Email address"
+          required
+        />
+        <textarea name="textarea" rows="10" cols="50" maxlength="500">
+Write something here</textarea
+        >
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </body>
 </html>
