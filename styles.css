@@ -1272,6 +1272,7 @@ button:focus {
   text-align: left;
   align-items: center;
   margin-left: 43px;
+
   /* Mono/White */
 
   background: #fff;
@@ -1314,7 +1315,7 @@ button:focus {
 
   /* Mono/White */
 
-  background: #ffffff;
+  background: #fff;
   color: #b3bac5;
 
   /* Base/100 */
