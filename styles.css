@@ -878,7 +878,7 @@ body {
 
 .see-project2:active {
   font-size: 18px;
-  border: 2px solid red;
+  background: #6070ff;
   border-radius: 100px;
   width: 124px;
   height: 48px;
@@ -905,9 +905,11 @@ body {
   color: #7f8cff;
   margin-top: 20px;
   margin-left: 1px;
+  /*cursor: not-allowed;*/
 }
 
-.see-project3 {
+.see-project3,
+button:disabled {
   cursor: not-allowed;
 }
 
