@@ -676,13 +676,14 @@ body {
   box-sizing: border-box;
   border-radius: 8px;
   background: white;
-  color: #7f8cff;
+  color: #6d7bf8;
   margin-top: 20px;
   margin-left: 1px;
 }
 
-.see-project:enabled {
-  color: #6070ff;
+.see-project,
+button:enabled {
+  color: #6d7bf8;
 }
 
 .works_card2 {
@@ -850,7 +851,8 @@ body {
 }
 
 .see-project1:hover {
-  background: slateblue;
+  background: rgb(150, 135, 247);
+  color: white;
 }
 
 .see-project2 {
@@ -876,12 +878,9 @@ body {
   margin-left: 1px;
 }
 
-.see-project2:active {
-  font-size: 18px;
-  background: #6070ff;
-  border-radius: 100px;
-  width: 124px;
-  height: 48px;
+.see-project2:hover {
+  background: rgb(150, 135, 247);
+  color: white;
 }
 
 .see-project3 {
@@ -907,9 +906,9 @@ body {
   margin-left: 1px;
 }
 
-.see-project3,
-button:disabled {
-  cursor: not-allowed;
+.see-project3:hover {
+  background: rgb(150, 135, 247);
+  color: white;
 }
 
 .about {
@@ -1028,7 +1027,8 @@ button:disabled {
 }
 
 .flex-botu:hover {
-  color: #7f8cff;
+  background: rgb(150, 135, 247);
+  color: white;
 }
 
 .border-lang {
@@ -1440,7 +1440,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  color: blueviolet;
+  background: rgb(129, 112, 245);
+  color: white;
 }
 
 .form-ico {
