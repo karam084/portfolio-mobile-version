@@ -691,6 +691,7 @@ button:active {
   color: white;
   border: 100px;
 }
+
 .works_card2 {
   display: grid;
   grid-template-columns: 20px max-content;
