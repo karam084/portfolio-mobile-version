@@ -686,6 +686,11 @@ button:enabled {
   color: #6d7bf8;
 }
 
+button:active {
+  background: #6070ff;
+  color: white;
+  border: 100px;
+}
 .works_card2 {
   display: grid;
   grid-template-columns: 20px max-content;
@@ -906,9 +911,45 @@ button:enabled {
   margin-left: 1px;
 }
 
-.see-project3:hover {
-  background: rgb(150, 135, 247);
+.see-project3,
+button:disabled {
+  cursor: not-allowed;
+}
+
+.see-project:active {
+  font-size: 18px;
+  background: #6070ff;
   color: white;
+  border: 100px;
+  width: 124px;
+  height: 48px;
+}
+
+.see-project1:active {
+  font-size: 18px;
+  background: #6070ff;
+  color: white;
+  border: 100px;
+  width: 124px;
+  height: 48px;
+}
+
+.see-project2:active {
+  font-size: 18px;
+  background: #6070ff;
+  color: white;
+  border: 100px;
+  width: 124px;
+  height: 48px;
+}
+
+.see-project3:active {
+  font-size: 18px;
+  background: #6070ff;
+  color: white;
+  border: 100px;
+  width: 124px;
+  height: 48px;
 }
 
 .about {
@@ -1441,6 +1482,11 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background: rgb(129, 112, 245);
+  color: white;
+}
+
+input[type="submit"]:active {
+  background: #6070ff;
   color: white;
 }
 
