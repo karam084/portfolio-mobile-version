@@ -1,12 +1,11 @@
-![](https://github.com/karam084/My_Portfolio_WebSite-)
-
 # Portfolio Mobile version
 
 > This is the personal Portfolio of Karam Fouad - Web Developer
+![Screenshot](https://user-images.githubusercontent.com/77942746/162585504-3b2882e6-b12b-404c-bc89-2923c481597b.png)
 
-![screenshot](.\Microverse Projects\portfolio mobile version\screenshot\screenshot.docx)
+![Screenshot](https://user-images.githubusercontent.com/77942746/162585535-4062f216-70b8-4109-a3f0-4dfed2d7a5ba.png)
 
-Additional description about the project and its features.
+![Screenshot](https://user-images.githubusercontent.com/77942746/162585548-ac99a793-ae69-4b90-a407-b547d82d071b.png)
 
 ## Live Demo
 
