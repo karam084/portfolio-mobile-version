@@ -1,4 +1,6 @@
 # Portfolio Mobile version
+< This is the personal Portfolio Web site, and this project works properly on the mobile version.
+
 
 ![Screenshot](https://user-images.githubusercontent.com/77942746/162585504-3b2882e6-b12b-404c-bc89-2923c481597b.png)
 
@@ -23,7 +25,7 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/karam-fouad-179830214/)
 
 ## Acknowledgments
-This is the personal Portfolio Web site, and this project works properly on the mobile version.
+This Portfolio Project was build using Figma templates under continuous supervision of Microverse team!!
 
 ## 📝 License
 
